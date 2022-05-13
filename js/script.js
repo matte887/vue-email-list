@@ -12,7 +12,6 @@ const app = new Vue({
             .then((result) => {
                 this.thisMail = result.data.response;
                 this.arrayMails.push(this.thisMail);
-                console.log(this.arrayMails);
             });                
         }
     }
